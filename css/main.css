@@ -1,11 +1,19 @@
 /* regole di debug */
-
-.col-1 {
+[class*="col-"] {
   min-height: 200px;
   background-color: lightpink;
   border: 1px solid black;
 }
+
  .text {
    text-align: center;
    line-height: 200px;
  }
+ .nested  {
+   background-color: #f27446;
+   border: 1px solid white;
+ }
+
+.col-6 .row {
+  margin: 1%;
+}
