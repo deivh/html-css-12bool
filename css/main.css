@@ -1,0 +1,11 @@
+/* regole di debug */
+
+.col-1 {
+  min-height: 200px;
+  background-color: lightpink;
+  border: 1px solid black;
+}
+ .text {
+   text-align: center;
+   line-height: 200px;
+ }
